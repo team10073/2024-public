@@ -1,0 +1,154 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.6751948895821795,
+      "y": 4.426390230452671
+    },
+    "rotation": -60.68425402568964
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Bottom2PBetter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "indexCommand"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "pivotSubwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "goToSubwooferSpeed"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4P1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "indexCommand"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4P2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "indexCommand"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "stopShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

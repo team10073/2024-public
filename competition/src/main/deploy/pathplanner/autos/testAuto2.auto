@@ -1,0 +1,61 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3576143980026243,
+      "y": 3.026256561279297
+    },
+    "rotation": -65.4823085998282
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPieceAnywhere"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4PUnderStage.1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPieceMidStage"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4PUnderStage.2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPieceMidStage"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4PUnderStage.3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPieceMidStage"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": true
+}

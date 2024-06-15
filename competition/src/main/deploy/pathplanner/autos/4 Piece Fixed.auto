@@ -1,0 +1,116 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.3186789318946823,
+      "y": 5.537862667174266
+    },
+    "rotation": 0.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPiece"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4P1F"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "finishIndex"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "pivotSubwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPiece"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Middle2P"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "finishIndex"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "pivotSubwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPiece"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4P3F"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "finishIndex"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "pivotSubwoofer"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shootPiece"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
