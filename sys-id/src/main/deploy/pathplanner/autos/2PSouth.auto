@@ -1,0 +1,87 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7044441642327478,
+      "y": 4.4361399886695265
+    },
+    "rotation": -60.0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "2PSouth"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "indexCommand"
+          }
+        },
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "goToSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "stopShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

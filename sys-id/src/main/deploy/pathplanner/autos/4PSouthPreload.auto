@@ -1,0 +1,56 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.7329133749008179,
+      "y": 4.447585105895996
+    },
+    "rotation": -60.00637637874201
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "parallel",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "setSubwooferSpeed"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "4PSouthSubPreload"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "stopShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": true
+}

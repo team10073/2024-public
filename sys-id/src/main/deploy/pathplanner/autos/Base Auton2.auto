@@ -1,0 +1,87 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.71,
+      "y": 4.54
+    },
+    "rotation": -59.49000000000001
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+<<<<<<< HEAD
+          "type": "path",
+          "data": {
+            "pathName": "TestAuton2"
+          }
+        },
+        {
+=======
+>>>>>>> cbf6232beb47199700eee80ec5cc73821a1b33df
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+<<<<<<< HEAD
+                "type": "named",
+                "data": {
+                  "name": "pivotSubwoofer"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "primeShooter"
+=======
+                "type": "deadline",
+                "data": {
+                  "commands": [
+                    {
+                      "type": "named",
+                      "data": {
+                        "name": "pivotSidewoofer"
+                      }
+                    },
+                    {
+                      "type": "named",
+                      "data": {
+                        "name": "ShootSubWoofer"
+                      }
+                    }
+                  ]
+>>>>>>> cbf6232beb47199700eee80ec5cc73821a1b33df
+                }
+              }
+            ]
+          }
+<<<<<<< HEAD
+=======
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "stopShooter"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "TestAuton2"
+          }
+>>>>>>> cbf6232beb47199700eee80ec5cc73821a1b33df
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

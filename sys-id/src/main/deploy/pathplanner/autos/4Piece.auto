@@ -1,0 +1,37 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.769176567484491,
+      "y": 4.571346787467586
+    },
+    "rotation": -60.870000000000005
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "named",
+          "data": {
+            "name": "goToSubwooferSpeed"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Auton4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "primeShooter"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
